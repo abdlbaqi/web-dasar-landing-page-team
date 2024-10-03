@@ -1,0 +1,102 @@
+body {
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    background-image:  linear-gradient(#000046, #1cb5e0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nama-kelompok {
+    text-align: center;
+    padding: 60px 0;
+    font-weight: bold;
+    position: relative;
+    top: -80px;
+    margin: 200px;
+    padding: 20px;
+    background-color: rgb(249, 250, 251);
+    border-radius: 50px;
+    box-shadow: 0px 0px 70px lightseagreen;
+}
+
+.h2b {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    font-family: Arial;
+}
+
+.nama-kelompok:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 100px rgb(92, 184, 180);
+    transition: 0.6s;
+    transform: translateY(-10px);
+}
+
+.text {
+    font-family: sans-serif;
+}
+
+.border-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 64px;
+    
+}
+.bold{
+    font-weight: bold;
+}
+
+.team {
+    background-color: rgb(247, 249, 249);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px; 
+    box-shadow: 0px 0px 30px rgb(183, 43, 155);
+    font-size: 10pt;
+    text-align: center;
+    flex:300px;
+    
+}
+.team p{
+   line-height: 1.6;
+   color: #0d0d0e;
+   font-size: 15px;
+}
+.team:hover {
+    transform: translateY(-10px); 
+    box-shadow: 1px 1px 100px rgb(92, 184, 180); 
+    transition: 0.6s;
+}
+
+.team img {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 100%;
+}
+.fa {  
+    background-color: #e3e3e3;
+    padding: 20px;
+    font-size: 30px;
+    width: 50;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }  
+.team h3 {
+    margin-top: 10px;
+}
+
+.team .NPM {
+    color: #777;
+}  
